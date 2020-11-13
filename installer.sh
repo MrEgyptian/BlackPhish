@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update -y
 apt upgrade -y
-apt install php python python2 curl wget openssh toilet fish clang cowsay -y
+apt install php unzip python python2 curl wget openssh toilet fish clang cowsay -y
 unzip *.zip 
 ssh-keygen -t rsa
 clear
