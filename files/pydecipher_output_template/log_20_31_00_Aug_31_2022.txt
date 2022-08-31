@@ -1,0 +1,17 @@
+2022-08-31 20:31:00,668: [*] Unpacking /home/ahmed/python/BlackPhish/files/template.pyc
+2022-08-31 20:31:00,668: [*] Checking PortableExecutable magic for file template.pyc
+2022-08-31 20:31:00,668: [*] Magic incorrect for type PortableExecutable
+2022-08-31 20:31:00,668: [*] Checking CArchive magic for file template.pyc
+2022-08-31 20:31:00,668: [!] Could not find PyInstaller magic within this archive.
+2022-08-31 20:31:00,668: [*] Magic incorrect for type CArchive
+2022-08-31 20:31:00,668: [*] Checking ZlibArchive magic for file template.pyc
+2022-08-31 20:31:00,668: [*] Magic incorrect for type ZlibArchive
+2022-08-31 20:31:00,668: [*] Checking PYTHONSCRIPT magic for file template.pyc
+2022-08-31 20:31:00,668: [*] Magic incorrect for type PYTHONSCRIPT
+2022-08-31 20:31:00,669: [*] Checking ZipFile magic for file template.pyc
+2022-08-31 20:31:00,669: [*] Magic incorrect for type ZipFile
+2022-08-31 20:31:00,669: [*] Checking Pyc magic for file template.pyc
+2022-08-31 20:31:00,669: [*] Determined template.pyc type to be Pyc
+2022-08-31 20:31:00,698: [*] Decompiling file /home/ahmed/python/BlackPhish/files/template.pyc of size 4116
+2022-08-31 20:31:18,571: [!] Failed to decompile file /home/ahmed/python/BlackPhish/files/template.pyc with error: Deparsing stopped due to parse error
+2022-08-31 20:31:18,640: [!] Failed to decompile all 1 .pyc files. See log for more information.

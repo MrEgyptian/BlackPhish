@@ -1,0 +1,40 @@
+2022-08-31 20:35:43,849 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10545@MainThread  
+2022-08-31 20:35:43,851 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10545@MainThread  
+2022-08-31 20:35:48,555 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10563@MainThread  
+2022-08-31 20:35:48,558 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10563@MainThread  
+2022-08-31 20:36:16,535 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10632@MainThread  
+2022-08-31 20:36:16,537 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10632@MainThread  
+2022-08-31 20:36:16,538 [-] target_file is required :__init__.py:119-40  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.main) at 10632@MainThread  
+2022-08-31 20:36:33,773 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10664@MainThread  
+2022-08-31 20:36:33,777 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10664@MainThread  
+2022-08-31 20:36:33,778 [-] target_file is required :__init__.py:119-40  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.main) at 10664@MainThread  
+2022-08-31 20:36:45,958 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10695@MainThread  
+2022-08-31 20:36:45,961 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10695@MainThread  
+2022-08-31 20:36:45,961 [-] target_file is required :__init__.py:119-40  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.main) at 10695@MainThread  
+2022-08-31 20:36:55,947 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10724@MainThread  
+2022-08-31 20:36:55,949 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10724@MainThread  
+2022-08-31 20:36:55,949 [-] target_file is required :__init__.py:119-40  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.main) at 10724@MainThread  
+2022-08-31 20:38:09,121 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10824@MainThread  
+2022-08-31 20:38:09,124 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10824@MainThread  
+2022-08-31 20:38:11,620 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10846@MainThread  
+2022-08-31 20:38:11,625 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10846@MainThread  
+2022-08-31 20:38:18,997 [+] pydumpck is a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.sometimes its py-file result not exactly right ,maybe could use uncompyle6.
+--------------------
+pydumpck initilizing with 1.15.8 :pyinstaller_dump.py:102-20  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/pyinstaller_dump.py on(pyinstaller_dump.run) at 10878@MainThread  
+2022-08-31 20:38:19,000 [*] plugins loaded with ['pycdc'] :__init__.py:85-10  /home/ahmed/.local/lib/python3.10/site-packages/pydumpck/py_common_dump/__init__.py on(__init__.load_plugins) at 10878@MainThread  

