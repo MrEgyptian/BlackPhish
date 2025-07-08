@@ -2,4 +2,4 @@
 from files.lang import *
 slogo()
 lang()
-mm()
+main_menu()

